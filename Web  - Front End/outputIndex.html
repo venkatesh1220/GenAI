@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewpoint" content="width=device-width" >
+        <title>
+            Output Page </title>
+            <link rel="stylesheet" href="outputStyles.css">
+    </head>
+    <body>
+        <h2>Image Colorization</h2>
+        <div class="my" >
+            
+            <div class="container">
+                <h1 style="text-align: center;">Black and White Image</h1>
+                <img id="image-input" src="http://127.0.0.1:5000/inputImage" alt="INPUT FILE">
+            </div>  
+            
+            <div class="container">
+                <h1 style="text-align: center;">Colorized Image</h1>
+                <img id="image-output" src="http://127.0.0.1:5000/outputImage" alt="OUTPUT FILE">
+            </div>
+        </div>
+        <button class="button-home" role="button" onclick="window.location.href = 'index.html';">Back to Home Page</button>
+        
+        <script src="outputScript.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #e0eafc;
+    background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+    background: linear-gradient(to right, #cfdef3, #e0eafc);
+
+}
+.container{
+    display: inline-block;
+
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    background:#fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+
+
+}
+
+
+
+.drag-area{
+    height: 400px;
+    border: 3px dashed #e0eafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+
+}
+h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+
+
+
+}
+.drag-area  .icon {
+    font-size: 50px;
+    color: #1683ff;
+}
+.drag-area .header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #34495e;
+}
+.drag-area .support{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0 15px 0;
+
+}
+
+.drag-area .button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1683ff;
+    cursor: pointer;
+
+}
+
+.drag-area.active{
+    border: 2px solid #1683ff;
+}
+
+.drag-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+.my .container{
+    max-width: 600px;
+    min-width: 200px;
+    width: 100%;
+    padding: 30px;
+    background:#fff;
+    border-radius: 20px;
+}
+
+
+.my .container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}   
+
+.custom-button1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+body {
+    margin: auto;
+    font-family: sans-serif;
+  }
+  
+  #loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #92de34;
+    border-radius: 30px;
+    color: #025600;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 0 7px #92de34 inset;
+    background-image: linear-gradient(
+      145deg,
+      transparent 10%,
+      #69bc22 10% 20%,
+      transparent 20% 30%,
+      #69bc22 30% 40%,
+      transparent 40% 50%,
+      #69bc22 50% 60%,
+      transparent 60% 70%,
+      #69bc22 70% 80%,
+      transparent 80% 90%,
+      #69bc22 90% 100%
+    );
+    animation: background 3s linear infinite;
+  }
+  
+  @keyframes background {
+    to {
+      background-position: 400px 0;
+    }
+  }
+  
